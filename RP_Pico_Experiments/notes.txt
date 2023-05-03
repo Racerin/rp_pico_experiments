@@ -1,0 +1,14 @@
+
+Electrical:
+    Current Limit
+        - 16mA per pin
+            - With optocoupler @0.7V drop accross 3.3V supply:
+                min resistance = 162.5 ohms
+
+Upload process:
+    - Create code
+    - Build in platformio
+    - go to directory '[project_folder]\.pio\build\pico'
+    - Hold-down raspberry pi pico 'reset' button while reinserting it's usb cable (PC-end or developement board-end)
+    - Copy file 'firmware.uf2' to Raspberry Pi Pico's directory
+    - Code should run
