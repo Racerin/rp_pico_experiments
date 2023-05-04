@@ -1,3 +1,12 @@
+Install Frameworks:
+    Wizio-pico (best?, proprietary)
+        https://gogs.quake4.jp/yoneda/wizio-pico
+    Instructions:
+        - PIO Home > Platforms > Embedded > Advanced Installations
+        - Paste framework's url into prompt and press 'Install'
+        - Wait to complete.
+
+
 
 Electrical:
     Current Limit
@@ -12,3 +21,4 @@ Upload process:
     - Hold-down raspberry pi pico 'reset' button while reinserting it's usb cable (PC-end or developement board-end)
     - Copy file 'firmware.uf2' to Raspberry Pi Pico's directory
     - Code should run
+
