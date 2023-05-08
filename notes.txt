@@ -1,12 +1,14 @@
-Install Frameworks:
-    Wizio-pico (best?, proprietary)
-        https://gogs.quake4.jp/yoneda/wizio-pico
-    Instructions:
-        - PIO Home > Platforms > Embedded > Advanced Installations
-        - Paste framework's url into prompt and press 'Install'
-        - Wait to complete.
+Software Setup for pico-sdk:
+    - Tutorial: https://shawnhymel.com/2096/how-to-set-up-raspberry-pi-pico-c-c-toolchain-on-windows-with-vs-code/
 
-
+Build:
+    After building the CMakeFiles;
+        - Reset RP Pico by:
+            - Disconnecting USB
+            - Hold-down the reset button on RP Pico
+            - Reinsert USB cable
+        - Copy file build/${PROJECT_FOLDER_NAME}.uf2 to RP Pico directory
+        - RP Pico has been flashed.
 
 Electrical:
     Current Limit
